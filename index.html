@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#211d16">
+<meta name="description" content="Interior by Leah creates thoughtful interior spaces, bespoke designs and custom-made furniture for homes and businesses in Gitaru, Rungiri and nearby areas in Kenya.">
+<title>Interior by Leah | Thoughtful Spaces, Beautifully Made</title>
+<style>
+:root{--ink:#211d16;--paper:#f5f1e9;--cream:#e9e1d4;--gold:#b99662;--muted:#d6d0c6;--max:1240px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif}a{color:inherit}button,a{-webkit-tap-highlight-color:transparent}.wrap{width:min(var(--max),calc(100% - 48px));margin:auto}
+header{height:88px;background:#f8f6f0;display:flex;align-items:center;position:sticky;top:0;z-index:20;border-bottom:1px solid rgba(33,29,22,.12)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:inline-flex;align-items:center;gap:14px;min-width:0;text-decoration:none;flex-shrink:0}.brand img{width:58px;height:58px;object-fit:contain;display:block}.wordmark{display:flex;flex-direction:column;gap:7px;white-space:nowrap;line-height:1;color:#26221b}.wordmark strong{font-size:14px;letter-spacing:.19em;font-weight:800}.wordmark span{font-size:11px;letter-spacing:.29em;font-weight:500}
+.navlinks{display:flex;align-items:center;gap:27px}.navlinks a{text-decoration:none;font-size:11px;letter-spacing:.11em;text-transform:uppercase}.talk{border:1px solid rgba(33,29,22,.4);padding:15px 18px;text-decoration:none;font-size:12px;white-space:nowrap}.hamb{display:none;border:1px solid rgba(33,29,22,.45);background:transparent;color:inherit;width:48px;height:48px;font-size:25px}
+.hero{min-height:690px;position:relative;display:flex;align-items:center;color:#fff;background:#2b2924 url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2000&q=85') center/cover no-repeat}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,17,15,.76),rgba(18,17,15,.44) 55%,rgba(18,17,15,.32))}.hero-inner{position:relative;padding:90px 0 70px}.eyebrow{font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:700}.eyebrow:before{content:"";display:inline-block;width:35px;height:1px;background:var(--gold);vertical-align:middle;margin-right:16px}.hero h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(60px,9vw,116px);font-weight:400;line-height:.92;letter-spacing:-.055em;max-width:850px;margin:35px 0 26px}.hero h1 em{color:#c5a16d;font-weight:400}.hero p{max-width:610px;color:#eee9df;font-size:17px;line-height:1.8}.actions{display:flex;align-items:center;gap:28px;flex-wrap:wrap;margin-top:38px}.btn{display:inline-flex;align-items:center;gap:30px;text-decoration:none;padding:19px 24px;background:#c0a071;color:#1f1a12;font-size:12px;letter-spacing:.04em}.btn.alt{background:transparent;color:white;padding-left:0}.hero-foot{display:flex;justify-content:space-between;gap:20px;margin-top:90px;font-size:10px;letter-spacing:.19em;text-transform:uppercase;color:#e8e1d6}
+section{padding:100px 0}.section-kicker{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#8c724d;font-weight:700}.section-title{font:400 clamp(38px,5vw,66px)/1.04 Georgia,serif;letter-spacing:-.035em;margin:20px 0 24px;max-width:800px}.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}.intro-grid p,.section-copy{font-size:15px;line-height:1.9;color:#5e584f}.intro-photo{min-height:440px;background:url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85') center/cover}
+.services{background:#e9e2d7}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#cfc5b6;margin-top:42px;border:1px solid #cfc5b6}.service{background:#e9e2d7;padding:28px;min-height:150px}.service small{color:#9b7b4e;letter-spacing:.15em}.service h3{font:400 23px Georgia,serif;margin:16px 0 9px}.service p{font-size:13px;line-height:1.7;color:#655d52;margin:0}
+.work-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;margin-top:42px}.work-image{min-height:360px;background-position:center;background-size:cover}.work-image.one{background-image:url('https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=1200&q=85')}.work-image.two{background-image:url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1000&q=85')}.work-image.three{background-image:url('https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1000&q=85')}.work-caption{padding:17px 0 8px;font-size:11px;letter-spacing:.14em;text-transform:uppercase}.work-lower{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}
+.cta{background:#242018;color:#f6f0e6}.cta .section-copy{color:#d4cabe;max-width:650px}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:start}.contact-links{display:grid;gap:0;margin-top:20px}.contact-links a{padding:19px 0;border-bottom:1px solid #554c3f;text-decoration:none;display:flex;justify-content:space-between;gap:20px}.contact-links span{color:#c4a16d}.contact-details{color:#d4cabe;font-size:14px;line-height:2}.contact-details a{color:#f6f0e6}.footer{background:#171510;color:#d9d0c3;padding:26px 0;font-size:10px;letter-spacing:.14em;text-transform:uppercase}.footer-inner{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+@media(max-width:900px){.navlinks{gap:15px}.navlinks a{font-size:10px}.talk{padding:13px}.hero{min-height:640px}.intro-grid{gap:40px}.service-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:680px){header{height:88px}.wrap{width:calc(100% - 34px)}.nav{gap:10px}.brand{gap:9px}.brand img{width:48px;height:48px}.wordmark{gap:6px}.wordmark strong{font-size:11px;letter-spacing:.14em}.wordmark span{font-size:9px;letter-spacing:.22em}.nav-actions{display:flex;align-items:center;gap:8px;margin-left:auto}.hamb{display:block;width:43px;height:43px;font-size:22px}.talk{padding:14px 11px;font-size:11px}.navlinks{display:none;position:absolute;top:88px;left:0;right:0;background:#f8f6f0;padding:20px 24px 25px;flex-direction:column;align-items:flex-start;border-top:1px solid #ddd4c7;box-shadow:0 12px 20px #00000012}.navlinks.open{display:flex}.navlinks a{font-size:12px;padding:7px 0}.hero{min-height:720px;background-position:57% center}.hero-inner{padding:76px 0 42px}.eyebrow{font-size:10px;letter-spacing:.15em}.eyebrow:before{width:20px;margin-right:9px}.hero h1{font-size:clamp(53px,15vw,78px);line-height:.94;margin:29px 0 23px}.hero p{font-size:15px;line-height:1.75}.actions{gap:13px;margin-top:29px}.btn{padding:17px 16px;gap:16px}.btn.alt{padding:14px 0}.hero-foot{margin-top:70px;font-size:8px;letter-spacing:.12em}.hero-foot span:last-child{text-align:right}section{padding:72px 0}.intro-grid,.contact-grid{grid-template-columns:1fr;gap:30px}.intro-photo{min-height:300px}.section-title{font-size:45px}.service-grid{grid-template-columns:1fr 1fr}.service{padding:19px 15px;min-height:145px}.service h3{font-size:20px}.service p{font-size:12px}.work-grid,.work-lower{grid-template-columns:1fr}.work-image{min-height:280px}.work-image.two,.work-image.three{min-height:250px}}
+@media(max-width:360px){.brand img{width:41px;height:41px}.brand{gap:7px}.wordmark strong{font-size:10px}.wordmark span{font-size:8px}.talk{font-size:10px;padding:12px 8px}.hamb{width:39px;height:41px}.hero h1{font-size:50px}.service-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body id="top">
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Interior by Leah home">
+      <img src="logo.jpg" alt="Interior by Leah logo" onerror="this.style.display='none'">
+      <span class="wordmark"><strong>INTERIOR</strong><span>BY LEAH</span></span>
+    </a>
+    <nav class="navlinks" id="navlinks" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#services">Services</a><a href="#work">Our work</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions"><button class="hamb" id="hamb" aria-label="Open navigation" aria-expanded="false">☰</button><a class="talk" href="#contact">Let's talk ↗</a></div>
+  </div>
+</header>
+<main>
+<section class="hero">
+ <div class="wrap hero-inner">
+  <div class="eyebrow">Thoughtful spaces. Beautifully made.</div>
+  <h1>Make room<br>for <em>beautiful</em><br>living.</h1>
+  <p>Interiors that feel like you. Bespoke design, considered details and custom-made furniture for the way you live and work.</p>
+  <div class="actions"><a class="btn" href="#contact">Start your project <b>↗</b></a><a class="btn alt" href="#work">Explore our work ↓</a></div>
+  <div class="hero-foot"><span>Interior design · Custom furniture</span><span>Gitaru Road, Kenya ↗</span></div>
+ </div>
+</section>
+<section id="about"><div class="wrap intro-grid">
+ <div><div class="section-kicker">01 &nbsp; A more personal approach</div><h2 class="section-title">Spaces shaped around the way you live.</h2><p>Interior by Leah brings thoughtful design and practical detail together to create spaces that feel considered, comfortable and distinctly yours. From a single room refresh to a full renovation, every detail has a purpose.</p><p>Based around Gitaru Road and serving Rungiri and nearby areas, we help bring your ideas to life with a personal, collaborative approach.</p><a class="btn" href="#contact">Tell us what you have in mind ↗</a></div>
+ <div class="intro-photo" role="img" aria-label="Warm, contemporary interior design inspiration"></div>
+</div></section>
+<section class="services" id="services"><div class="wrap"><div class="section-kicker">02 &nbsp; What we do</div><h2 class="section-title">Considered design, down to the details.</h2><p class="section-copy">Practical solutions and beautiful finishes for homes, workplaces and hospitality spaces.</p>
+ <div class="service-grid">
+  <article class="service"><small>01</small><h3>Interior design</h3><p>Space planning, room concepts, colour palettes and cohesive interiors.</p></article>
+  <article class="service"><small>02</small><h3>Kitchens & cabinetry</h3><p>Kitchen design, cabinet planning, fittings and installation.</p></article>
+  <article class="service"><small>03</small><h3>Custom furniture</h3><p>Made-to-measure furniture designed around your space and needs.</p></article>
+  <article class="service"><small>04</small><h3>Living & bedrooms</h3><p>Thoughtful layouts, lighting, décor and finishing touches.</p></article>
+  <article class="service"><small>05</small><h3>Commercial spaces</h3><p>Office, salon, spa, clinic, shop and hospitality fit-outs.</p></article>
+  <article class="service"><small>06</small><h3>Renovation & finishes</h3><p>Refurbishment, flooring, decorative wall finishes and remodelling.</p></article>
+ </div>
+</div></section>
+<section id="work"><div class="wrap"><div class="section-kicker">03 &nbsp; Inspiration</div><h2 class="section-title">A feeling for the possibilities.</h2><p class="section-copy">A small moodboard of interior styles, textures and details. Contact us to discuss ideas for your own space.</p>
+ <div class="work-grid"><div><div class="work-image one"></div><div class="work-caption">Warm minimalism · Living spaces</div></div><div><div class="work-image two"></div><div class="work-caption">Natural materials · Calm details</div></div></div>
+ <div class="work-lower"><div><div class="work-image three"></div><div class="work-caption">Modern comfort · Thoughtful finishes</div></div><div style="display:flex;flex-direction:column;justify-content:center;padding:20px 0"><div class="section-kicker">Your space, your story</div><h3 style="font:400 34px/1.1 Georgia,serif">Let's make something that feels like you.</h3><p class="section-copy">These images are inspiration, not a claim of completed client projects. Ask us about our services and ideas for your space.</p><a class="btn" href="#contact">Start a conversation ↗</a></div></div>
+</div></section>
+<section class="cta" id="contact"><div class="wrap contact-grid"><div><div class="section-kicker">04 &nbsp; Let's talk</div><h2 class="section-title">Have a space in mind?</h2><p class="section-copy">Tell us what you're planning, what you need, and the kind of feeling you want your space to have. We'd love to hear from you.</p><div class="contact-links"><a href="https://wa.me/254707719874" target="_blank" rel="noopener">WhatsApp us <span>↗</span></a><a href="tel:+254707719874">Call Leah <span>↗</span></a><a href="https://www.google.com/maps/search/?api=1&query=Gitaru+Road+Kenya" target="_blank" rel="noopener">Get directions <span>↗</span></a><a href="https://www.instagram.com/interior_by_leah/" target="_blank" rel="noopener">Instagram <span>↗</span></a></div></div>
+ <div class="contact-details"><p><strong style="color:#f6f0e6">INTERIOR BY LEAH</strong></p><p>Gitaru Road, Kenya<br>Serving Rungiri and nearby areas</p><p>Monday – Saturday<br>7:00 AM – 8:00 PM</p><p>Phone: <a href="tel:+254707719874">+254 707 719 874</a></p><p>For enquiries, project discussions and consultations, reach out by phone or WhatsApp.</p></div>
+</div></section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><span>© <span id="year"></span> Interior by Leah</span><span>Thoughtful spaces. Beautifully made.</span></div></footer>
+<script>
+const hamb=document.getElementById('hamb'), links=document.getElementById('navlinks');
+hamb.addEventListener('click',()=>{const open=links.classList.toggle('open');hamb.setAttribute('aria-expanded',String(open));hamb.setAttribute('aria-label',open?'Close navigation':'Open navigation');hamb.textContent=open?'×':'☰';});
+links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');hamb.setAttribute('aria-expanded','false');hamb.setAttribute('aria-label','Open navigation');hamb.textContent='☰';}));
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
