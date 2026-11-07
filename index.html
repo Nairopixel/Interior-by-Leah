@@ -73,7 +73,7 @@ section{padding:100px 0}.section-kicker{font-size:11px;letter-spacing:.2em;text-
 const hamb=document.getElementById('hamb'), links=document.getElementById('navlinks');
 hamb.addEventListener('click',()=>{const open=links.classList.toggle('open');hamb.setAttribute('aria-expanded',String(open));hamb.setAttribute('aria-label',open?'Close navigation':'Open navigation');hamb.textContent=open?'×':'☰';});
 links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');hamb.setAttribute('aria-expanded','false');hamb.setAttribute('aria-label','Open navigation');hamb.textContent='☰';}));
-document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('year').textContent=new Date().getFullYear();:
 </script>
 </body>
 </html>
